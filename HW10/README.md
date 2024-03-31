@@ -1,4 +1,4 @@
-LAB 9!
+Homework 10!
  
  
  * Step1: Use a Queue Data Structure (I represented this with an Arraylist lol, tried using a priority queue and it became more complicated then I wanted), then what we do is check if root is check if Null, then return null if thats the case.
