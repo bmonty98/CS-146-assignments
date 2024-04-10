@@ -1,1 +1,20 @@
-if you wanted to convert a 
+1. if you wanted to convert a adjacency list into a matrix, you would most likely countain it in some sort of array of arrays wheere
+the index is the node and the array inside of the index would contain the nodes with the adjacent nodes as values in that inner array at that index.
+
+some_matrix = [[]] empty to fill
+
+for inner_array in OuterArray:
+    for Values in Inner_array:
+        go through every node and input in the matrix and get the values at (1,1) or (1,2) and (m,n) values in the matrix and see if they are filled with 1's (meaning true) and zero's (meaning false) and then inputing the m and n values of the matrix in their designated correct array at the nodes the adjacencies are spotted. then once ended the matrix will show at the M X N values 1 or 0
+
+2. go through a matrix containing 1s or zeros and then what we will do is for the values of the pairs (1,1). (1,2), (rows, columns) these values will contain 1s or zeros, we will then create this:
+
+for adjacent nodes in outer array:
+  // check for pairs (1,0) (1,1), (1,2), ... (x,y) ) and if they have ones fill the node 1 array with their values of the y values then keep going through and adding the values of the y rows into the current node we are in.
+
+thus we exit with the indexes of the outer array containing the values of the nodes they are adjacent to.
+
+3. to reverse a directed graph if the edges have weights, then we just re orient the graph arrows to be negative weights (I am not sure shooting in the dark!)
+    
+      
+        
